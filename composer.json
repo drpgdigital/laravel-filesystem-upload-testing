@@ -1,0 +1,30 @@
+{
+  "name": "drpgroup/laravel-filesystem-upload-testing",
+  "description": "Test helpers to easily assert that a file was uploaded to the filesystem.",
+  "authors": [
+    {
+      "name": "Luke Renfrew",
+      "email": "luke.renfrew@drpgroup.com",
+      "role": "Lead Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "league/flysystem" : "1.0.*",
+    "league/flysystem-memory" : "1.0.*"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.6",
+    "phpunit/phpunit": "~7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Drpgroup\\LaravelFileSystemUploadTesting\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Drpgroup\\LaravelFileSystemUploadTesting\\Tests\\": "tests"
+    }
+  }
+}
